@@ -35,3 +35,40 @@ console.log(booleanIsLoggedIn);
 let str= 33;
 let strNo= String(str);
 console.log(typeof strNo);
+
+//******operation***********//
+
+let val=3;
+let negValue= -val;
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);
+
+let str1="hello";
+let str2=" world";
+console.log(str1+str2);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);//give 122 because string came first
+console.log(1+2+"2");//gives 32  here integer comes first
+
+let gameCounter=100;
+gameCounter++;
+console.log(gameCounter);
+console.log(++gameCounter);
+
+
+
+
+
+
+
+
+
+

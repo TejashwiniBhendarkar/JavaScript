@@ -21,3 +21,12 @@ let isLoggedIn=true;
 console.log(typeof age);
 console.log(typeof null) //it returns object
 console.log(typeof undefined); // it return undefined
+
+
+const id=Symbol('123');
+const anotherId= Symbol('123');
+console.log(id===anotherId);
+//it will return false 
+
+const bigNumber=123456n;
+console.log(typeof bigNumber);
