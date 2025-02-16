@@ -1,0 +1,8 @@
+//primitive 
+//7 types: String,null,Number,Boolean,undefined,Symbol,BigInt
+
+
+//Reference type(Non-primitive)
+//Array,Objects,Functions
+
+//JavaScript is a dyanamic language not static , which means that variables can hold value of different types during runtime

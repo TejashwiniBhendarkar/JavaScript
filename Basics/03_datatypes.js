@@ -30,3 +30,4 @@ console.log(id===anotherId);
 
 const bigNumber=123456n;
 console.log(typeof bigNumber);
+//retur bigInt
