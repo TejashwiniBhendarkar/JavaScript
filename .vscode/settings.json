@@ -13,5 +13,6 @@
     "github.copilot.chat.setupTests.enabled": false,
     "github.branchProtection": false,
     "github.gitAuthentication": false,
-    "github.showAvatar": false
+    "github.showAvatar": false,
+    "liveServer.settings.port": 5501
 }
