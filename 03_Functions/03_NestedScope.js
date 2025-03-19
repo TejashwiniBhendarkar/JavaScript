@@ -1,14 +1,4 @@
-function one(){
-    const username = "abc";
 
-    function two(){
-        const website ="twitter";
-        console.log(username);
-    }
-   // console.log(website);
-    two();
-}
-one();
 
 if(true){
     const username ="xyz";
@@ -19,3 +9,18 @@ if(true){
   //  console.log(website);
   console.log(username);
 }
+
+
+function parent(){
+    const username ="abc";
+
+    function child(){
+        const website ="yt";
+        console.log(username);//parent element can be accessed
+    }
+    console.log(website);//parent cannot accessed child element
+    //it will give ***error**
+    two();
+    
+}
+one();
